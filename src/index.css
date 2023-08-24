@@ -11,3 +11,138 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+* {
+  box-sizing: border-box;
+  font-family: 'Gelasio', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.sub-title {
+  background-color: #2e91af4b;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.shoping-now {
+  background-color: #2e91af4b;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 20px;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.shoping-now:hover {
+  background-color: #65ceff;
+  transform: scale(1.1);
+}
+
+.allCard {
+  text-align: center;
+  font-weight: bold;
+}
+
+.category-card-img {
+  width: 100px;
+  height: 100px;
+  background-color: #2e91af4b;
+  border-radius: 50%;
+}
+
+
+
+.Card-products{
+  width: 250px;
+  height: 220px;
+  background-color: white;
+  margin-bottom: 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px 8px 0 0;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.Card-products:hover {
+  background-color: #2e91af4b;
+}
+
+.all-Card-product {
+  transition: transform 0.5s ease;
+}
+
+.all-Card-product:hover {
+  transform: scale(1.1);
+}
+
+.font-card-product {
+  padding: 4px;
+  height: 60px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #2e91af4b;
+  position: relative;
+  bottom: 30px;
+  border-radius: 0 0 8px 8px;
+}
+
+.Footer {
+  height: 50px;
+  background-color: #2e91af4b;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+  align-items: center;
+  font-weight: bold;
+}
+
+
+.Prands-card{
+  display: flex;
+  justify-content: space-around;
+  background-color: #2e91af4b;
+  font-size: 20px;
+  font-weight: bold;
+  height: 70px;
+  box-shadow: 5px 10px 8px 15px #d7d5d7;
+  padding: 10px;
+  margin-top: 30px;
+}
+@media (max-width:670px) {
+  .Prands-card{
+    box-shadow: 2px 5px 8px 5px #d7d5d7;
+  }
+}
+.Prands-card img:first-child{
+  width: 60px;
+  height: 60px;
+}
+.Prands-card img:nth-child(2){
+  width: 120px;
+  height: 50px;
+}
+.Prands-card img:last-child{
+  width: 80px;
+  height: 50px;
+}
+
+.header-products{
+  background-color: #2e91af4b;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 7px;
+  box-shadow: 5px 5px 10px 1px #2e91af4b;
+}
+.header-products > p {
+  font-size: 13px;
+  font-weight: bold;
+}
+
